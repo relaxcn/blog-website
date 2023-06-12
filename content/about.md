@@ -3,7 +3,7 @@ title: "关于我"
 type: page
 menu: "main"
 weight: 4
-draft: false
+hidden: true
 comment: false
 ---
 
