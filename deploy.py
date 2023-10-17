@@ -27,11 +27,11 @@ if __name__ == '__main__':
     ssh.exec_command("rm -rf /www/wwwroot/www.chens.life/*")
     print(os.getcwd() + "/" + targz_file_path[2:])
     sftp.put(os.getcwd() + "/" + targz_file_path[2:], "/www/wwwroot/www.chens.life/public.tar.gz", callback=None, confirm=True)
-    print("tar zxvf /www/wwwroot/www.chens.life/public.tar.gz -C /www/wwwroot/www.chens.life/")
+    # print("tar zxvf /www/wwwroot/www.chens.life/public.tar.gz -C /www/wwwroot/www.chens.life/")
     _, stdout, stderr = ssh.exec_command("tar zxvf /www/wwwroot/www.chens.life/public.tar.gz -C /www/wwwroot/www.chens.life/", timeout=10)
     
     print(stdout.read().decode('utf-8'))
     shutil.rmtree(public_dir_path)
     os.remove(targz_file_path)
-    os.system("./gitupdate.sh")
+    os.system(".\\gitupdate.bat")
     
