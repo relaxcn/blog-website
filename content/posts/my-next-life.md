@@ -5,7 +5,7 @@ description:
 tags: [人生]
 categories: 人生
 featured_image: "/images/notebook.png"
-draft: false
+draft: true
 comment: false
 ---
 
