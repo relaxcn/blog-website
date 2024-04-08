@@ -15,4 +15,4 @@ comment: false
 
 ## Contact me
 
-email: me@chens.life
+email: me@deepthink.blog
