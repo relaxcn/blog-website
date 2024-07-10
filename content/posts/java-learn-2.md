@@ -4,7 +4,7 @@ date: 2020-04-03T17:53:19+08:00
 description:
 tags: [Java]
 categories: xv6-Java学习
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

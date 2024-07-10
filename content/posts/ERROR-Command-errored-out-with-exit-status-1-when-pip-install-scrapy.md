@@ -4,7 +4,7 @@ date: 2020-11-08T20:10:02+08:00
 description:
 tags: [Python, Bugs解决记录]
 categories: Bugs解决记录
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

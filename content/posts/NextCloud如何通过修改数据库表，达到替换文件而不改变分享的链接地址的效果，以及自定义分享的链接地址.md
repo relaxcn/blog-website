@@ -4,7 +4,7 @@ date: 2020-08-23T19:44:59+08:00
 description:
 tags: [软件教程]
 categories: 软件教程
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

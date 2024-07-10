@@ -4,7 +4,7 @@ date: 2020-10-03T19:51:08+08:00
 description:
 tags: [VIM]
 categories: VIM学习
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

@@ -4,7 +4,7 @@ date: 2022-11-07T15:47:41+08:00
 description: 如何将一个二进制值的指定位设置为指定的值
 tags: [基本技术, 二进制]
 categories: 基本技术
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

@@ -4,7 +4,7 @@ date: 2021-06-16T20:35:45+08:00
 description:
 tags: [Bugs解决记录, CC++]
 categories: Bugs解决记录
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

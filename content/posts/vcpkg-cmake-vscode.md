@@ -4,7 +4,6 @@ date: 2023-01-27T15:58:36+08:00
 description: 本文是使用  vcpkg 、cmake 、vscode 进行 C++ 开发的环境配置教程。
 tags: [vcpkg, cmake, vscode]
 categories: 软件教程
-featured_image: "/images/vcpkg.jpg"
 draft: false
 comment : false
 ---

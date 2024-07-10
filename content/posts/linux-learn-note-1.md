@@ -4,7 +4,7 @@ date: 2020-04-04T17:56:13+08:00
 description:
 tags: [linux]
 categories: linux笔记
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

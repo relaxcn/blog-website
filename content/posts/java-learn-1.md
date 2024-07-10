@@ -4,7 +4,7 @@ date: 2020-04-02T17:39:18+08:00
 description:
 tags: [Java]
 categories: Java学习
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

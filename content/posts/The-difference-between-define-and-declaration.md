@@ -4,7 +4,7 @@ date: 2020-07-20T18:05:31+08:00
 description:
 tags: [C语言]
 categories: C语言
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

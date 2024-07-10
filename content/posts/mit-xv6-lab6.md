@@ -4,7 +4,6 @@ date: 2024-04-07T23:56:33+08:00
 description: Mit 6.S081 Lab Multithreading 答案和解析
 tags: [xv6-labs-2022]
 categories: xv6-labs-notes
-featured_image: "/images/notebook.png"
 draft: false
 comment : true
 ---

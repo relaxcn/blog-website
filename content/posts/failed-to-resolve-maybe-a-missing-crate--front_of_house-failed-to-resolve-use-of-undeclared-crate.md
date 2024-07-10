@@ -4,7 +4,7 @@ date: 2021-04-22T20:24:36+08:00
 description:
 tags: [Rust]
 categories: Rust, Bugs解决记录
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

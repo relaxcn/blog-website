@@ -4,7 +4,7 @@ date: 2021-02-09T20:20:05+08:00
 description:
 tags: [linux, openssh]
 categories: Linux笔记
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

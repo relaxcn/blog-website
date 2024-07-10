@@ -4,7 +4,7 @@ date: 2021-07-29T20:52:56+08:00
 description:
 tags: [linux]
 categories: Bugs解决记录
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

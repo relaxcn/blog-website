@@ -4,7 +4,7 @@ date: 2020-05-10T18:02:05+08:00
 description:
 tags: [Hexo]
 categories: Hexo
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

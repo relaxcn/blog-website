@@ -4,7 +4,7 @@ date: 2020-10-15T20:03:57+08:00
 description:
 tags: [C语言, 读书笔记]
 categories: 读书笔记
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

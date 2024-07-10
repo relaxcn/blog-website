@@ -4,7 +4,7 @@ date: 2020-05-19T18:03:45+08:00
 description:
 tags: [博客]
 categories: 博客
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

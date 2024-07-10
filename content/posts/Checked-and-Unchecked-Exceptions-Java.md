@@ -4,7 +4,7 @@ date: 2020-05-07T18:01:07+08:00
 description:
 tags: [Java]
 categories: Java
-featured_image: "/images/notebook.png"
+
 draft: true
 comment: false
 ---

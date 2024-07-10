@@ -4,7 +4,7 @@ date: 2020-09-25T20:00:37+08:00
 description:
 tags: [网站教程]
 categories: 网站教程
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

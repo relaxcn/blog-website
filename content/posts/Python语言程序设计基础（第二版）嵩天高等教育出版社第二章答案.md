@@ -4,7 +4,7 @@ date: 2020-10-18T20:05:47+08:00
 description:
 tags: [Python, 读书笔记]
 categories: 读书笔记
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

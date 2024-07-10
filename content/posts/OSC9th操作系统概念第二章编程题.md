@@ -4,7 +4,7 @@ date: 2021-03-15T20:22:31+08:00
 description:
 tags: [linux, 读书笔记]
 categories: 读书笔记
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---

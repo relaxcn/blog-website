@@ -4,7 +4,7 @@ date: 2022-11-21T18:32:42+08:00
 description: xv6-labs-2022 Lab4 traps 答案与解析
 tags: [xv6-labs-2022]
 categories: xv6-labs-notes
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: true
 ---

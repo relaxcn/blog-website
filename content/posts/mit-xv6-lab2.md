@@ -4,7 +4,7 @@ date: 2022-11-02T20:22:44+08:00
 description: Mit 6.S081 Lab system calls 答案和解析
 tags: [xv6-labs-2022]
 categories: xv6-labs-notes
-featured_image: "/images/notebook.png"
+
 draft: false
 comment: false
 ---
