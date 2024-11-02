@@ -23,7 +23,7 @@ googleAnalytics = "G-XYL6PJ0SX1"
 subtitle = "不要温柔的走进那个良夜"
 enableUtterances = true
 enableGitalk = false
-disableDarkMode=false
+disableDarkMode= true
 # Twitter Card and Open Graph settings
 enableOpenGraph = false
 enableTwitterCards = false
