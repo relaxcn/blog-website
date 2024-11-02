@@ -55,15 +55,15 @@ jobs:
           pngQuality: "80"
           # 压缩 WebP 质量，1-100
           webpQuality: "80"
+          includePaths: |
+            content/**
+            static/**
           # 需要忽略的文件夹
           ignorePaths: |
             node_modules/**
             build/**
             dist/**
             .github/**
-          # 阈值
-          # threshold: "2097152" # 2MB
-          # threshold: "1048576" # 1MB
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
