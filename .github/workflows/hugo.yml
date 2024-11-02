@@ -43,24 +43,24 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      # 压缩图片
-      - name: Compress Images
-        uses: calibreapp/image-actions@main
-        with:
-          compressOnly: true
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # 压缩 JPG 质量，1-100
-          jpegQuality: "80"
-          # 压缩 PNG 质量，1-100
-          pngQuality: "80"
-          # 压缩 WebP 质量，1-100
-          webpQuality: "80"
-          # 需要忽略的文件夹
-          ignorePaths: |
-            node_modules/**
-            build/**
-            dist/**
-            .github/**
+      # # 压缩图片
+      # - name: Compress Images
+      #   uses: calibreapp/image-actions@main
+      #   with:
+      #     compressOnly: true
+      #     githubToken: ${{ secrets.GITHUB_TOKEN }}
+      #     # 压缩 JPG 质量，1-100
+      #     jpegQuality: "80"
+      #     # 压缩 PNG 质量，1-100
+      #     pngQuality: "80"
+      #     # 压缩 WebP 质量，1-100
+      #     webpQuality: "80"
+      #     # 需要忽略的文件夹
+      #     ignorePaths: |
+      #       node_modules/**
+      #       build/**
+      #       dist/**
+      #       .github/**
 
       - name: Setup Pages
         id: pages
