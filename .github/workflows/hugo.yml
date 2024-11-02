@@ -47,6 +47,7 @@ jobs:
       - name: Compress Images
         uses: calibreapp/image-actions@main
         with:
+          compressOnly: true
           # 压缩 JPG 质量，1-100
           jpegQuality: "80"
           # 压缩 PNG 质量，1-100
