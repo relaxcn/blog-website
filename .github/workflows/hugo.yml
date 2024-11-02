@@ -62,7 +62,7 @@ jobs:
             dist/**
             .github/**
           # 阈值
-          threshold: "2097152" # 2MB
+          # threshold: "2097152" # 2MB
           # threshold: "1048576" # 1MB
       - name: Setup Pages
         id: pages
