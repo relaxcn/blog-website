@@ -46,4 +46,4 @@ img="IMG_20230708_183712.jpg"
 caption="夕阳、海和人" 
 command="Resize" 
 align="Center"
-options="400x" >}}
+options="600x" >}}
