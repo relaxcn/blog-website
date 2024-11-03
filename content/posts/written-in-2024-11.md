@@ -43,7 +43,7 @@ comment : false
 
 {{< insertFigure
 img="IMG_20230708_183712.jpg" 
-caption="夕阳、海和人" 
+caption="夕阳、海滩和赶海的人<br/><font size='2'>福州 · 2023.07</font>" 
 command="Resize" 
 align="Center"
 options="600x" >}}
