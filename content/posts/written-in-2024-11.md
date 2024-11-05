@@ -42,8 +42,8 @@ comment : false
 --- 
 
 {{< insertFigure
-img="/static/images/IMG_20230708_183712.png" 
-caption="夕阳、海滩和赶海的人<br/><font size='2'>福州 · 2023.07</font>" 
+img="IMG_20230708_183712.png" 
+caption="夕阳、海滩，赶海的人<br/><font size='2'>2023.7 · 福州</font>" 
 command="Resize" 
 align="Center"
 options="600x" >}}
