@@ -65,3 +65,7 @@ weight = 5
 url = "https://www.deepthink.blog"
 name = "DeepThink"
 weight = 6
+[[menu.main]]
+name = "时间轴"
+url = "/timeline/"
+weight = 10
