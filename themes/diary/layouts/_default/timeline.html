@@ -16,8 +16,8 @@
             </div>
             <!-- Comment text -->
             <p class="text-gray-700 mb-3">
-                {{ if gt (len .Summary) 100 }}
-                    {{ .Summary | truncate 100 }}
+                {{ if gt (len .Summary) 200 }}
+                    {{ .Summary | truncate 200 }}
                     <a href="{{ .Permalink }}" class="text-blue-500">More</a>
                 {{ else }}
                     {{ .Summary }}
