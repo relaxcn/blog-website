@@ -1,6 +1,9 @@
 {{ define "main" }}
 <head>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add these in your <head> section -->
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 </head>
 
 {{ $pages := where .Site.RegularPages "Params.tags" "timeline" }}
@@ -16,13 +19,53 @@
             </div>
             <!-- Comment text -->
             <p class="text-gray-700 mb-3">
-                {{ if gt (len .Summary) 200 }}
-                    {{ .Summary | truncate 200 }}
+                {{ $summary := .Summary | replaceRE "<img[^>]*?>" "" | markdownify }}
+                {{ if gt (len $summary) 200 }}
+                    {{ $summary | truncate 200 }}
                     <a href="{{ .Permalink }}" class="text-blue-500">More</a>
                 {{ else }}
-                    {{ .Summary }}
+                    {{ $summary }}
                 {{ end }}
             </p>
+            <!-- 只展示第一张图片 -->
+            <!-- {{ $images := findRE `<img src="([^"]+)"` .Content -1 }}
+            {{ with index $images 0 }}
+                {{ $imgSrc := replaceRE `<img src="([^"]+)".*` "$1" . }}
+                <div class="mt-4">
+                    <img src="{{ $imgSrc }}" alt="Article Image" class="w-full h-auto max-h-screen object-contain rounded-lg shadow-lg">
+                </div>
+            {{ end }} -->
+            {{ $images := findRE `<img src="([^"]+)"` .Content -1 }}
+            {{ if gt (len $images) 0 }}
+                {{ $firstImgSrc := replaceRE `<img src="([^"]+)".*` "$1" (index $images 0) }}
+                <!-- Display only the first image -->
+                <a href="{{ $firstImgSrc }}" class="glightbox" data-gallery="gallery">
+                    <img src="{{ $firstImgSrc }}" alt="Article Image" class="w-full h-auto object-contain rounded-lg shadow-lg">
+                </a>
+            
+                <!-- Show "Click to view more" if there are multiple images -->
+                {{ if gt (len $images) 1 }}
+                    <p class="text-gray-600 text-sm mt-2">点击图片查看更多</p>
+                {{ end }}
+            
+                <!-- Include all images for the lightbox -->
+                <div class="hidden">
+                    {{ range $i, $img := $images }}
+                        {{ if ne $i 0 }} <!-- Skip the first image -->
+                            {{ $imgSrc := replaceRE `<img src="([^"]+)".*` "$1" $img }}
+                            <a href="{{ $imgSrc }}" class="glightbox" data-gallery="gallery"></a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        GLightbox({ selector: '.glightbox' });
+                    });
+                </script>
+            {{ end }}
+            
+            
         </div>
     </body>
     {{ end }}
