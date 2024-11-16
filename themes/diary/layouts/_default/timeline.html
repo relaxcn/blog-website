@@ -27,7 +27,6 @@
                     {{ $summary }}
                 {{ end }}
             </p>
-            <br>
             <!-- 只展示第一张图片 -->
             <!-- {{ $images := findRE `<img src="([^"]+)"` .Content -1 }}
             {{ with index $images 0 }}
@@ -38,8 +37,9 @@
             {{ end }} -->
             {{ $images := findRE `<img src="([^"]+)"` .Content -1 }}
             {{ if gt (len $images) 0 }}
+            <br>
                 {{ $firstImgSrc := replaceRE `<img src="([^"]+)".*` "$1" (index $images 0) }}
-                <!-- Display only the first image -->
+
                 <a href="{{ $firstImgSrc }}" class="glightbox" data-gallery="gallery">
                     <img src="{{ $firstImgSrc }}" alt="Article Image" class="w-full h-auto object-contain rounded-lg shadow-lg">
                 </a>
