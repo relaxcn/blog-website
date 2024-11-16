@@ -6,6 +6,9 @@ copyright = " flyto2035. 本站遵循 CC-BY-NC 4.0 协议"
 theme = "diary"
 googleAnalytics = "G-XYL6PJ0SX1"
 # googleSiteVerification = "xxxx-xxxx"
+[minify]
+  disable = true
+
 [markup]
   [markup.highlight]
     codeFences = true
