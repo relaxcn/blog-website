@@ -4,6 +4,7 @@ type: page
 menu: "main"
 weight: 50
 hidden: true
+layout: "about"
 comment: false
 ---
 
