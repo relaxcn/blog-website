@@ -100,9 +100,9 @@
             </nav>
             <div class="post-comment-wrapper">
                 {{ if eq .Params.comment false }}
-                <p style="opacity: 0.6" align="center">
+                <!-- <p style="opacity: 0.6" align="center">
                     <small>{{ i18n "comments_disabled" }}</small>
-                </p>
+                </p> -->
                 {{ else }}
                 {{- partial "comment.html" . -}}
                 {{ end }}
