@@ -13,7 +13,8 @@
     {{ with .OutputFormats.Get "RSS" }}
         {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
-    {{ range .Paginator.Pages }}
+    {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "!=" true) }}
+    {{range $paginator.Pages }}
     {{ if and (.IsPage) (.Params.date) }}
         <item>
         <title>{{ .Title }}</title>
