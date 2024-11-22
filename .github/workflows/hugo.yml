@@ -60,7 +60,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Remove EXIF Metadata from Images
         run: |
-          find ./public -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) 
+          find ./public -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -exec exiftool -all= -overwrite_original {} \;
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
