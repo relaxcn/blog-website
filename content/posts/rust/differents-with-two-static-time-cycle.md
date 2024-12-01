@@ -1,7 +1,7 @@
 ---
 title: "Rust 中两种 static 生命周期标注的区别"
 date: 2024-12-01T23:23:17+08:00
-description: 本文介绍了 Rust 中的两种 static 生命周期标注： T: 'static 和 T: &'static，它们是有本质区别的。
+description: "本文介绍了 Rust 中的两种 static 生命周期标注： T: 'static 和 T: &'static, 它们是有本质区别的。"
 tags: [rust-time-cycle]
 categories: Rust
 draft: false
