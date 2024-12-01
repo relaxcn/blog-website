@@ -50,7 +50,6 @@ fn main() {
         // 然而 a_str 的作用域不是整个程序(static)
         static_bound(&a_str); // OK
     }
-    
 }
 
 // 'static 要求 T 类型的可以在 'static 生命周期内使用
@@ -75,7 +74,6 @@ fn main() {
         // 然后 a_str 的作用域不是整个程序(static)
         static_bound(&a_str); // OK
     }
-    
 }
 
 // 'static 要求 T 类型的可以在 'static 生命周期内使用
