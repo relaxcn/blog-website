@@ -20,8 +20,8 @@
             <!-- Comment text -->
             <p class="text-gray-700 mb-3">
                 {{ $summary := .Summary | replaceRE "<img[^>]*?>" "" | markdownify }}
-                {{ if gt (len $summary) 200 }}
-                    {{ $summary | truncate 200 }}
+                {{ if gt (len $summary) 400 }}
+                    {{ $summary | truncate 400 }}
                     <a href="{{ .Permalink }}" class="text-blue-500">More</a>
                 {{ else }}
                     {{ $summary }}
