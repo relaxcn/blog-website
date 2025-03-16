@@ -16,4 +16,4 @@ comment: false
 
 ## Contact me
 
-email: hi@chens.life
+email: boot0x7c00@foxmail.com
